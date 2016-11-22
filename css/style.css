@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato');
+
+body{
+	background: linear-gradient(-143deg, #9a3939, #ffab4a);
+	min-height: 100vh;
+}
+body, .create-column, .add-card {
+	font-family: 'Lato', sans-serif;
+}
+h1, h2 {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+body, h1{
+	margin: 0;
+}
+h1{
+	padding: 15px 0 10px 0;
+}
+.boards button{
+	margin
+}
+.board{
+	position: relative;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 10px;
+}
+.board h2{
+	text-align: left;
+	margin-bottom: 0;
+	padding: 10px 0 0 15px;
+}
+.create-board{
+	margin: 0 auto;
+}
+.create-boards{
+	width: 250px;
+	margin: 0 auto;
+}
+.text-center {
+	text-align: center;
+}
+.create-column, .create-board {
+	width: 200px;
+  height: 30px;
+  margin: 15px 25px;
+  background: rgb(173, 182, 174);
+  border-radius: 10px;
+  font-size: 16px;
+}
+button.create-board{
+	margin: 0 25px;
+}
+.column-container {
+	display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.column {
+  min-height: 300px;
+  width: 250px;
+  background: rgba(255,255,255,.4);
+  margin: 0 1%;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+	position: relative;
+	-webkit-box-shadow: -3px 6px 8px 0px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    -3px 6px 8px 0px rgba(50, 50, 50, 0.56);
+	box-shadow:         -3px 6px 8px 0px rgba(50, 50, 50, 0.56);
+}
+.btn-delete {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+	position: absolute;
+	top: 3px;
+	right: 1px;
+}
+.btn-delete:hover, .add-card:hover, .create-column:hover {
+	cursor: pointer;
+}
+.column-title {
+	margin: 5px 0 10px;
+  font-weight: 300;
+}
+.column-title:after {
+	content: '';
+	display: block;
+  width: 80%;
+  height: 1px;
+	margin-left: 10%;
+  border-top: 3px solid black;
+}
+.card-placeholder {
+	height: 60px;
+	width: 100%;
+	background: rgba(255,255,255,.4);
+	margin-bottom: 10px;
+  border-radius: 10px;
+}
+.column-card-list {
+	min-height: 250px;
+	list-style: none;
+	padding: 10px;
+	overflow: auto;
+	margin: 0;
+}
+.add-card {
+  width: 215px;
+  height: 30px;
+  background: rgb(173, 182, 174);
+  border-radius: 10px;
+  font-size: 16px;
+	margin: 10px 0 5px 10px;
+}
+.card {
+	min-height: 60px;
+	position: relative;
+  background: rgb(255, 235, 241);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(136, 0, 4);
+}
