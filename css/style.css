@@ -45,7 +45,7 @@ h1{
 	width: 200px;
   height: 30px;
   margin: 15px 25px;
-  background: rgb(173, 182, 174);
+  background: #C3CE82;
   border-radius: 10px;
   font-size: 16px;
 }
@@ -112,7 +112,7 @@ button.create-board{
 .add-card {
   width: 215px;
   height: 30px;
-  background: rgb(173, 182, 174);
+  background: #C3CE82;
   border-radius: 10px;
   font-size: 16px;
 	margin: 10px 0 5px 10px;
@@ -125,4 +125,9 @@ button.create-board{
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid rgb(136, 0, 4);
+}
+
+.create-column-container {
+  width: 250px;
+  margin: 15px auto;
 }
